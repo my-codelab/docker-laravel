@@ -1,7 +1,8 @@
 language: php
 php:
   - '7.2'
-before_script: 
+before_script:
+  - cd ./laravel 
   - composer install
 script:
   - ./laravel/vendor/bin/phpunit --version
