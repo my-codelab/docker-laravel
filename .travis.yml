@@ -5,5 +5,5 @@ before_script:
   - cd ./laravel 
   - composer install
 script:
-  - ./laravel/vendor/bin/phpunit --version
-  - ./laravel/vendor/bin/phpunit
+  - /vendor/bin/phpunit --version
+  - /vendor/bin/phpunit

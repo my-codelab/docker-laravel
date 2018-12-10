@@ -1,4 +1,6 @@
 # docker-laravel
+[![Build Status](https://travis-ci.com/mchoiruln/docker-laravel.svg?branch=master)](https://travis-ci.com/mchoiruln/docker-laravel)
+
 Sample of docker-compose with laravel, nginx, php-fpm
 ## Target
 run like `php artisan serve` but from container docker
