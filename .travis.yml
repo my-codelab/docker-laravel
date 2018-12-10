@@ -8,6 +8,7 @@ before_script:
   - composer install
 script:
   - pwd
+  - cp example.env .env
   - php artisan key:generate
   - vendor/bin/phpunit --version
   - vendor/bin/phpunit
