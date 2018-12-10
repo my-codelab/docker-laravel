@@ -1,9 +1,12 @@
 language: php
 php:
   - '7.2'
+cache:
+  - laravel/vendor
 before_script:
   - cd ./laravel 
   - composer install
 script:
-  - /vendor/bin/phpunit --version
-  - /vendor/bin/phpunit
+  - pwd
+  - vendor/bin/phpunit --version
+  - vendor/bin/phpunit
